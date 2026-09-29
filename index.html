@@ -1,33 +1,97 @@
-
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi primera página</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/Style.css">
+    <meta autor="Juan Pablo Espinosa Macia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Practica</title>
 </head>
-<body>  
-  <h1>¡Hola, mundo!</h1> 
-   <p>Esta es mi primera página web.</p>
-  <style>
-  h1{
-    color: white;
-  }
+<body>
+    <main>
+        <section id="Principal"> 
+            <h1 id="Titulo">Galeria</h1>
 
-  p{
-    color: white;
-  }
-  </style>
-  <a href="https://youtu.be/E4WlUXrJgy4?si=wDy9XIXZtlvf98az" target="_blank">
-  <button type="button">Ver video</button>
-</a>
-  <style>
-    body {
-      background-image: url("https://wallpaperaccess.com/full/4163925.jpg");
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-    }
-      </style>
+            <section id="Seccion1">
+                <section class="Seccion_s">
+                    <article class="articulo">1</article>
+                    <article class="articulo" id="img-bg">2</article>
+                    <article class="articulo" id="color-dg">3</article>
+                    <article class="articulo">4</article>
+                </section>
+
+                <section class="Seccion_s">
+                    <article class="articulo">5</article>
+                    <article class="articulo" id="color-dg">6</article>
+                    <article class="articulo">7</article>
+                    <article class="articulo" id="img-bg">8</article>
+                </section>
+            </section>
+
+            <section id="Seccion2">   
+                <article class="articulo art2 contenido-flex">
+                    <img src="https://th.bing.com/th/id/R.95fce61b5fd5493de0e7c649fae02ecf?rik=vw0PbGNPfuFFNw&pid=ImgRaw&r=0" alt="Logo de la página" style="max-width: 100px;"> 
+                    <p>Este es el album de Foster the people llamado "supermodel"
+                    </p>    
+                </article> 
+        
+                <article class="articulo art2 columna-flex">
+                    <p>Estos son los tres albums que mandaron a la fama ha esta agrupacion</p>
+                    <div class="galeria-mini">
+                     <img src="https://th.bing.com/th/id/R.95fce61b5fd5493de0e7c649fae02ecf?rik=vw0PbGNPfuFFNw&pid=ImgRaw&r=0" alt="img1"> 
+                     <img src="https://tse4.mm.bing.net/th/id/OIP.iFeQOeAj6QWl19mk_O1HywAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="img2">
+                     <img src="https://2.bp.blogspot.com/-6Np9l7qj94k/T16oc5eXxTI/AAAAAAAAADA/ha-BGK1bFIo/s1600/ftptorchescvr5x5final.jpg" alt="img3"> 
+                    </div>
+                </article>
+
+                <article class="articulo art2 caja-imagen">
+                    <img src="https://tse3.mm.bing.net/th/id/OIP.nc7YZWl5-EVcFur_toWTuwAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">
+                </article>
+            </section>
+        </section>
+        
+        <aside id="Menu">
+            <h1>Menú</h1>
+            <ol>
+                <li><a href="https://music.youtube.com/watch?v=gxvWjKxow6U">Opcion 1</a></li>
+                <li><a href="https://music.youtube.com/watch?v=8tMKanAqkbc">Opcion 2</a></li>
+                <li><a href="https://music.youtube.com/watch?v=Mg5eb7BA-e4">Opcion 3</a></li>
+                <li><a href="https://music.youtube.com/watch?v=FlBCUzGLce0">Opcion 4</a></li>
+                
+            </ol>
+        </aside>
+    </main>
+
+    <footer id="Pie">
+        <section id="seccion_footer">
+            <nav id="nav_pie">
+                <ul> 
+                    <li><a href="https://music.youtube.com/watch?v=RL3TJ_hdkL8">Opcion 1</a></li>
+                    <li><a href="https://music.youtube.com/watch?v=VxQqyzj0Mz4">Opcion 2</a></li>
+                    <li><a href="https://music.youtube.com/watch?v=5HqL90AdApI">Opcion 3</a></li>
+                    <li><a href="https://music.youtube.com/watch?v=RcPzq0zFWsw">Opcion 4</a></li>
+                </ul>
+            </nav>
+            <a href="https://www.google.com/" target="_blank">Google</a>
+        </section>
+        <aside class="aside_footer">
+
+            <article class="art2 caja-icono">
+                 <span class="material-symbols-outlined">search</span>
+            </article>
+
+            <article class="art2 caja-icono">
+                <span class="material-symbols-outlined">android</span>
+            </article>
+
+            <article class="art2 caja-icono">
+                <span class="material-symbols-outlined">music_note</span>
+            </article>
+        </aside>
+    </footer>
 </body>
 </html>
