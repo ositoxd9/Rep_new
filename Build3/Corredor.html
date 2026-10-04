@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería con Menú Lateral</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="contenedor-principal">
+    <main class="contenido-principal">
+      <fieldset class="caja-formulario">
+      <h1>Corredor</h1>
+      <section class="fila-nombres">
+  <p class="campo">
+    <label for="Nombre2">Nombre:</label>
+    <input type="text" id="Nombre2" name="nombre2" required>
+  </p>
+
+  <p class="campo">
+    <label for="App">App:</label>
+    <input type="text" id="App" name="app" required>
+  </p>
+  
+  <p class="campo">
+    <label for="Apm">Apm:</label>
+    <input type="text" id="Apm" name="apm" required>
+  </p>
+</section>
+        <section class="fila-dato">
+        <label for="Edad">¿Cuál es tu edad?</label><br>
+        <input type="number" id="Edad" name="edad" min="0" max="100" required>
+        <br><br>
+
+        
+ <p class="campo">
+  <label for="Genero">Género:</label>
+  <select id="Genero" name="genero">
+    <option value="">Seleccionar...</option>
+    <option value="Femenino">Femenino</option>
+    <option value="Masculino">Masculino</option>
+  </select>
+</p>
+
+       
+ </section>
+  <label for="foto_auto">Sube una foto de tu auto favorito:</label><br>
+          <input type="file" id="Foto_auto" name="foto_auto" accept="image/*" required>
+          <br><br>
+</fieldset>
+          <button type="button" id="boton" onclick="guardarCorredor()">Guardar</button>
+        </form>
+
+      </section>
+    </main>
+  
+    <aside class="menu-lateral">
+      <h2>Menú</h2>
+      <ol>
+        <li><a href="Carros.html">Autos</a></li>
+        <li><a href="Escuderia.html">Escuderia</a></li>
+        <li><a href="Corredor.html">Corredor</a></li>
+        <li><a href="Relaciones.html">Relaciones</a></li>
+        <li><a href="index.html">Inicio</a></li>
+      </ol>
+    </aside>
+  </div>
+
+  <footer class="pie-pagina">
+    <h2>Juan Pablo</h2>
+
+  </footer>
+
+  <footer class="pie-Grupo">
+    <h3>LDSM405</h3>
+  </footer>
+
+  <script src="JS/Funcionalidad.js"></script>
+</body>
+</html>

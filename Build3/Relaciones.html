@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+ 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relaciones</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+ 
+<body>
+  <div class="contenedor-principal">
+    <main class="contenido-principal">
+      
+ 
+      <form action="#" method="POST" class="seccion-formulario">
+
+        <fieldset class="caja-relacion">
+          <legend>Auto - Corredor</legend>
+          <h1>Relaciones</h1>
+          <p class="fila-select">
+            <select name="auto_1" id="auto_1" required>
+              <option value="">Seleccionar...</option>
+              <optgroup label="Autos">
+                  <option value="McLaren MCL40">McLaren MCL40</option>
+                  <option value="Mercedes W17">Mercedes W17</option>
+                  <option value="Red Bull RB22">Red Bull RB22</option>
+            </select>
+            <label for="auto_1">Auto</label>
+
+
+          </p>
+ 
+          <p class="fila-select">
+            <select name="corredor_1" id="corredor_1" required>
+              <option value="">Seleccionar...</option>
+              <optgroup label="Corredores">
+                  <option value="Lando Norris">Lando Norris</option>
+                  <option value="Max Verstappen">Max Verstappen</option>
+                  <option value="Charles Leclerc">Charles Leclerc</option>
+            </select>
+            <label for="corredor_1">Corredor</label>
+          </p>
+        </fieldset>
+ 
+        
+        <fieldset class="caja-relacion">
+          <legend>Auto - Esc</legend>
+ 
+          <p class="fila-select">
+            <select name="auto_2" id="Auto_2" required>
+              <option value="">Seleccionar...</option>
+              <optgroup label="Autos">
+                  <option value="McLaren MCL40">McLaren MCL40</option>
+                  <option value="Mercedes W17">Mercedes W17</option>
+                  <option value="Red Bull RB22">Red Bull RB22</option>
+              </optgroup>
+            </select>
+            <label for="auto_2">Auto</label>
+          </p>
+ 
+          <p class="fila-select">
+            <select name="esc_2" id="Esc_2" required>
+              <option value="">Seleccionar...</option>
+              <optgroup label="Escuderias">
+                  <option value="McLaren">McLaren</option>
+                  <option value="Mercedes">Mercedes</option>
+                  <option value="Red Bull">Red Bull</option>
+              </optgroup>
+            </select>
+            <label for="esc_2">Escuderia</label>
+          </p>
+        </fieldset>
+                  <button type="button" id="boton" onclick="guardarRelaciones()">Guardar</button>
+      </form>
+    </main>
+ 
+    <aside class="menu-lateral">
+      <h2>Menú</h2>
+      <ol>
+        <li><a href="Carros.html">Autos</a></li>
+        <li><a href="Escuderia.html">Escuderia</a></li>
+        <li><a href="Corredor.html">Corredor</a></li>
+        <li><a href="Relaciones.html">Relaciones</a></li>
+        <li><a href="index.html">Inicio</a></li>
+      </ol>
+    </aside>
+  </div>
+ 
+  <footer class="pie-pagina">
+    <h2>Juan Pablo</h2>
+  </footer>
+  
+  <footer class="pie-Grupo">
+    <h3>LDSM405</h3>
+  </footer>
+ 
+  <script src="JS/Funcionalidad.js"></script>
+</body>
+</html>
+ 

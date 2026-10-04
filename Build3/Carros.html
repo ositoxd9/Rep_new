@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería con Menú Lateral</title>
+  <link rel="stylesheet" href="css/Style.css">
+</head>
+
+<body>
+  <div class="contenedor-principal">
+    <main class="contenido-principal">
+      <fieldset class="caja-formulario">
+      <h1>Autos</h1>
+      <section class="seccion-formulario">
+        <legend><h2>Cuestionario de Aficionados</h2>
+        <form action="#" method="POST" enctype="multipart/form-data">
+           
+
+          <label for="Modelo_C">Modelo:</label><br>
+          <input type="text" id="Modelo_C" name="Modelo_C" required>
+          <br><br>
+
+          <label for="Color">Color:</label><br>
+          <input type="color" id="Color" name="color">
+          <br><br>
+
+          <label for="foto_auto">Sube una foto de tu auto favorito:</label><br>
+          <input type="file" id="foto_auto" name="foto_auto" accept="image/*" required>
+          <br><br>
+      
+           <p class="campo">
+          <label for="Activo">¿Sigue activo?:</label>
+          <select id="Activo" name="Activo_f">
+          <option value="">Seleccionar...</option>
+          <option value="Si">Sí</option>
+          <option value="No">No</option>
+        </select>
+      </p>
+          </legend>
+          </fieldset>
+          <button type="button" id="boton" onclick="guardarAuto()">Guardar</button>
+        </form>
+     
+      </section>
+    </main>
+  
+    <aside class="menu-lateral">
+      <h2>Menú</h2>
+      <ol>
+        <li><a href="Carros.html">Autos</a></li>
+        <li><a href="Escuderia.html">Escuderia</a></li>
+        <li><a href="Corredor.html">Corredor</a></li>
+        <li><a href="Relaciones.html">Relaciones</a></li>
+        <li><a href="index.html">Inicio</a></li>
+      </ol>
+    </aside>
+  </div>
+
+  <footer class="pie-pagina">
+    <h2>Juan Pablo</h2>
+
+  </footer>
+
+  <footer class="pie-Grupo">
+    <h3>LDSM405</h3>
+  </footer>
+
+  <script src="JS/Funcionalidad.js"></script>
+</body>
+</html>
