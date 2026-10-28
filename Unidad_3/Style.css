@@ -1,0 +1,39 @@
+body {
+    font-family: system-ui, sans-serif;
+    background-color: #0f172a;
+    color: #f8fafc;
+    padding: 40px;
+}
+.container-ej1 {
+    background: #1e293b;
+    padding: 35px;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+h3 { 
+    color: #38bdf8; 
+    font-weight: 600; }
+
+#resultado {
+    font-family: monospace;
+    font-size: 26px;
+    background-color: #090d16;
+    color: #34d399;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    letter-spacing: 4px;
+    line-height: 1.2;
+    margin-top: 20px;
+}
+.btn-volver { 
+    color: #94a3b8; 
+    text-decoration: none; 
+    display: inline-block; 
+    margin-top: 20px; 
+}
+
+.btn-volver:hover { 
+    color: white; 
+}
