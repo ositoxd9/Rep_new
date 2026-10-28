@@ -24,28 +24,20 @@ label {
     color: #166534; 
 }
 .form-control, select {
-    border-radius: 8px !important;
-    border: 1px solid #86efac !important;
+    border-radius: 8px ;
+    border: 1px solid #86efac;
     margin-bottom: 12px;
 }
 .table {
     margin-top: 20px;
     border-radius: 8px;
-    overflow: hidden;
 }
 .table th {
-    background-color: #16a34a !important;
-    color: white !important;
+    background-color: #16a34a;
+    color: white;
     text-align: center;
 }
-.table td { text-align: center; 
+.table td {
+    text-align: center; 
             vertical-align: middle; 
-}
-.btn-volver { color: #15803d; 
-    text-decoration: none; 
-    display: inline-block; 
-    margin-top: 20px; 
-}
-.btn-volver:hover { 
-    text-decoration: underline; 
 }
